@@ -7,8 +7,10 @@ AI Engineer specializing in novel algorithm design and scalable intelligent syst
 ---
 
 ## Selected Work
+[ Contributor to Scikit-Learn ]
 
 **RADAR & OriginScale** — Novel clustering algorithms for adaptive density detection and high-dimensional data. OriginScale outperformed 12 industry benchmarks in deterministic clustering.
+[published libraries on PyPI]
 
 **QRAG** — Retrieval-Augmented Generation system using binary quantization for embedding compression and custom AI judges (QIM) for improved retrieval quality.
 
@@ -19,6 +21,7 @@ AI Engineer specializing in novel algorithm design and scalable intelligent syst
 Python · PyTorch · Scikit-Learn · LangChain  
 AWS · GCP · Vertex AI · Docker · Kubernetes · Terraform  
 Apache Spark · Kafka · Airflow · Redis · MySQL
+
 
 ## Interests
 

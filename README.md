@@ -1,3 +1,4 @@
+![AI Portfolio](ChatGPT%20Image%20Feb%2022,%202026,%2001_25_08%20PM.png)
 # Aditya Girish — AI Engineer
 
 AI Engineer specializing in novel algorithm design and scalable intelligent systems.  

@@ -1,5 +1,5 @@
 ![AI Portfolio](ChatGPT%20Image%20Feb%2022,%202026,%2001_25_08%20PM.png)
-# Aditya Girish — AI, Cloud Engineer
+# Aditya Girish — AI, Cloud Research Engineer
 
 AI Engineer specializing in novel algorithm design and scalable intelligent systems.  
 Research-driven builder who ships production-grade ML systems, designs new algorithms, and delivers measurable improvements in real-world environments.

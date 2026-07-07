@@ -119,13 +119,13 @@ Unsupervised learning · Information retrieval · Embedding compression · Multi
 
 ## Open To
 
-Research collaborations, senior/lead ML engineering roles, retrieval-focused systems work, and challenging algorithmic problems at scale.
+Research collaborations, AIML engineering roles, retrieval-focused systems work, and challenging algorithmic problems at scale.
 
 ---
 
 ## Contact
 
 📧 adityadeepa634@gmail.com  
-🔗 https://www.linkedin.com/in/aditya-girish-9a3133252/
+🔗 https://www.linkedin.com/in/adityagirishh/
 
 > If you’re building systems where algorithmic rigor meets real-world deployment — let’s talk.

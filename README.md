@@ -1,131 +1,70 @@
 ![AI Portfolio](ChatGPT%20Image%20Feb%2022,%202026,%2001_25_08%20PM.png)
-# Aditya Girish — AI, ML Research Engineer
+# Aditya Girish
 
-AI Engineer specializing in novel algorithm design and scalable intelligent systems.  
-Research-driven builder who ships production-grade ML systems, designs new algorithms, and delivers measurable improvements in real-world environments.
+AI/ML engineer. Retrieval systems, unsupervised methods, and production ML.
+B.Tech Computer Science, PES University · Bengaluru, India
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-girish-9a3133252/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:adityadeepa634@gmail.com)
-
----
-
-## Snapshot
-
-- **Domain focus:** Unsupervised learning, information retrieval, multimodal AI, and production ML systems  
-- **Strengths:** Research-grade algorithm design, density-adaptive clustering, retrieval-augmented pipelines, distributed ML at scale  
-- **Working style:** Ship small, measure everything, iterate fast — with strong emphasis on robustness and interpretability  
+[LinkedIn](https://www.linkedin.com/in/adityagirishh) · [adityadeepa634@gmail.com](mailto:adityadeepa634@gmail.com)
 
 ---
 
-## ⚙️ Core Technologies
+## Research
 
-### 🧠 Languages & ML Frameworks  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
+**When Does Structure Help? Graph vs. Tabular Models for Agent-Workflow Cost Prediction**
+*Under review — AAAI 2027, main technical track · Solo author*
 
----
+Establishes when graph neural networks beat tabular models for agent-workflow cost prediction. Across 357K real coding-agent rounds, graph models lose when execution costs do not propagate through workflow structure.
 
-### ☁️ Cloud & Infrastructure  
-![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
-![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?logo=googlecloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
-![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?logo=googlecloud&logoColor=white)
+**MSTRAE: Multi-Scale Temporal Recurrent Autoencoder for Flight Manoeuvre Recognition**
+*Accepted — FTC 2026, Berlin · Springer LNNS · Lead author*
+
+Zero-shot manoeuvre recognition on Cessna 172 telemetry using a multi-scale LSTM autoencoder in PyTorch, HMM-based unsupervised clustering, and an LLM-based evaluation framework in place of hand-labelled ground truth.
 
 ---
 
-### 🔁 Data & Streaming  
+## Selected work
 
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?logo=apachekafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?logo=googlecloud&logoColor=white)
-![Pub/Sub](https://img.shields.io/badge/PubSub-4285F4?logo=googlecloud&logoColor=white)
+### [QRAG](https://github.com/adityagirishh/Quantized-RAG) — quantized bi-level retrieval
 
----
+Dual-level quantization across coarse and fine retrieval tiers, built for memory-constrained deployment.
 
-### 🔗 AI / LLM Tooling  
-![LangChain](https://img.shields.io/badge/LangChain-000000?logo=chainlink&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-FF6F00)
-![Embedding Compression](https://img.shields.io/badge/Embedding_Compression-8A2BE2)
-![Distributed ML](https://img.shields.io/badge/Distributed_ML-1E90FF)
+- **95.1% recall@10** on FIQA at a **3–4× memory reduction**
+- Beats **FAISS IVF-PQ by 21.5pp in recall** at comparable memory budgets, benchmarked across 57,000 documents
 
----
+### [OriginScale](https://github.com/adityagirishh/OriginScale-a-novel-initialisation) — deterministic clustering initialization
 
-## Notable Impact
+Replaces data-dependent sampling in the standard initialization path with a deterministic scheme.
 
-### 🧩 OriginScale — Deterministic Density-Adaptive Clustering
-- Designed a deterministic clustering algorithm for adaptive-density, high-dimensional data.
-- Achieved strong performance across 12+ benchmark datasets.
-- Built production-ready implementation with optimized memory footprint.
+- Constant **26ms** initialization against a **~3.5s** average, on datasets up to 200K entries
+- Applied to real-time food-delivery dispatch: **1.68× lower latency**, no loss in assignment quality
 
-### 🔍 QRAG — Retrieval-Augmented Generation with Compressed Embeddings
-- Implemented binary-quantized embedding storage for large-scale retrieval.
-- Introduced a lightweight Quality Intelligence Module (QIM) for re-ranking.
-- Optimized memory vs. recall trade-offs for cost-constrained deployments.
+### FinFusion — multimodal financial forecasting
 
-### 📈 FinFusion — Multimodal Financial Forecasting
-- Combined LSTM time-series forecasting with real-time news sentiment.
-- Designed stability-focused evaluation metrics emphasizing tail-risk.
-- Improved robustness during regime shifts and volatility spikes.
+LSTM time-series forecasting fused with real-time news sentiment, evaluated using stability metrics that weight tail-risk behaviour during regime shifts and volatility spikes.
 
 ---
 
-## Open Source & Publications
+## Experience
 
-- Contributor to Scikit-Learn ecosystem (utilities, algorithms, tests)
-- Published production-ready ML libraries on PyPI
-- Focus on reproducible experiments and benchmark-driven validation
+**TruEstate** — AI/ML Engineer *(Jul 2026 – present)* · SWE Intern, AI *(Jan – Jul 2026)*
 
----
+Voice-AI stack specification and per-lead context curation for an outbound calling pipeline. Previously: an agent-based CMS on GCP that cut broker site-build time from **2 hours to 5 minutes** and lifted lead quality **60%**; consolidated a three-agent support system into a single classification-routed agent.
 
-## Technical Stack
+**Viable Ideas** — AI Backend Engineer Intern *(Apr – May 2025)*
 
-**Languages & Frameworks**  
-Python · PyTorch · Scikit-Learn · SQL  
-
-**ML / MLOps & Cloud**  
-LangChain · Vertex AI · AWS · GCP · Docker · Kubernetes · Terraform  
-
-**Data & Streaming**  
-Apache Spark · Kafka · Airflow · Redis · MySQL · BigQuery · Pub/Sub  
-
-**Expertise Areas**  
-Unsupervised learning · Information retrieval · Embedding compression · Multimodal ML · Time-series forecasting · Production ML systems
+LLM-based inventory prediction on transaction data from 4 bank sources, deployed at **85% classification accuracy**. Automated multi-source ingestion cut manual workflows **70%**.
 
 ---
 
-## What I Bring to a Team
+## Stack
 
-- **Research → Product:** Convert novel algorithm ideas into reliable, production-grade systems  
-- **Scalability-first mindset:** Distributed training, low-latency retrieval, and infra-aware design  
-- **Metrics-driven engineering:** A/B testing, backtesting, failure-mode analysis  
-- **Clear communication:** Design docs, reproducible experiments, cross-functional collaboration  
-
----
-
-## Interests & Direction
-
-- Self-supervised and unsupervised methods for real-world retrieval  
-- Compact representation learning and embedding quantization  
-- Multimodal systems robust to sparse, noisy, or adversarial signals  
+| | |
+|---|---|
+| **Languages & ML** | Python, PyTorch, scikit-learn, SQL |
+| **Cloud & infra** | GCP (Vertex AI, Cloud Run, BigQuery, Pub/Sub), Docker, Kubernetes, Terraform |
+| **Data** | Kafka, Redis, MySQL |
+| **LLM tooling** | LangChain, RAG, embedding quantization |
 
 ---
 
-## Open To
-
-Research collaborations, AIML engineering roles, retrieval-focused systems work, and challenging algorithmic problems at scale.
-
----
-
-## Contact
-
-📧 adityadeepa634@gmail.com  
-🔗 https://www.linkedin.com/in/adityagirishh/
-
-> If you’re building systems where algorithmic rigor meets real-world deployment — let’s talk.
+Open to research collaborations and ML engineering roles in retrieval and algorithmic systems work.
